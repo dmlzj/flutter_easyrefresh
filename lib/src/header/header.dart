@@ -676,6 +676,7 @@ class ClassicalHeaderWidgetState extends State<ClassicalHeaderWidget>
                 children: <Widget>[
                   Text(
                     _showText,
+                    textScaleFactor: 1,
                     style: TextStyle(
                       fontSize: 16.0,
                       color: widget.classicalHeader.textColor,
@@ -688,6 +689,7 @@ class ClassicalHeaderWidgetState extends State<ClassicalHeaderWidget>
                           ),
                           child: Text(
                             _infoText,
+                            textScaleFactor: 1,
                             style: TextStyle(
                               fontSize: 12.0,
                               color: widget.classicalHeader.infoColor,
