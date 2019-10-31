@@ -531,6 +531,7 @@ class ClassicalFooterWidgetState extends State<ClassicalFooterWidget>
                 children: <Widget>[
                   Text(
                     _showText,
+                    textScaleFactor: 1,
                     style: TextStyle(
                       fontSize: 16.0,
                       color: widget.classicalFooter.textColor,
@@ -543,6 +544,7 @@ class ClassicalFooterWidgetState extends State<ClassicalFooterWidget>
                           ),
                           child: Text(
                             _infoText,
+                            textScaleFactor: 1,
                             style: TextStyle(
                               fontSize: 12.0,
                               color: widget.classicalFooter.infoColor,
